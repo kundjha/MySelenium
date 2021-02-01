@@ -29,7 +29,7 @@ public class GetTitle extends base{
 	public void initialize() throws IOException
 	{
 		driver=InitializeDriver();
-		log.info("Driver is initalized");
+		log.info("Driver is initalized again");
 		driver.get(prop.getProperty("url"));
 		log.info("Navigated to URL ");
 		driver.manage().window().maximize();
