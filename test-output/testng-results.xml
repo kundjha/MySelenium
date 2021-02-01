@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-28T15:51:04 IST" name="Default suite" finished-at="2021-01-28T15:55:17 IST" duration-ms="252786">
+    <groups>
+    </groups>
+    <test started-at="2021-01-28T15:51:04 IST" name="Default test" finished-at="2021-01-28T15:55:17 IST" duration-ms="252786">
+      <class name="FrameworkE2E.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkE2E.HomePage@5a18cd76]" started-at="2021-01-28T15:51:04 IST" name="initialize" finished-at="2021-01-28T15:52:02 IST" duration-ms="57130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:FrameworkE2E.HomePage@5a18cd76]" started-at="2021-01-28T15:52:02 IST" name="basePageNavigation" data-provider="getdata" finished-at="2021-01-28T15:53:10 IST" duration-ms="68383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:FrameworkE2E.HomePage@5a18cd76]" started-at="2021-01-28T15:53:11 IST" name="basePageNavigation" data-provider="getdata" finished-at="2021-01-28T15:55:12 IST" duration-ms="121120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameworkE2E.HomePage@5a18cd76]" started-at="2021-01-28T15:55:12 IST" name="teardown" finished-at="2021-01-28T15:55:17 IST" duration-ms="5429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameworkE2E.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

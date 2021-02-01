@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-28T17:42:14 IST" name="Suite" finished-at="2021-01-28T17:47:37 IST" duration-ms="322788">
+    <groups>
+    </groups>
+    <test started-at="2021-01-28T17:42:14 IST" name="Validating User login" finished-at="2021-01-28T17:43:59 IST" duration-ms="105073">
+      <class name="FrameworkE2E.GetTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkE2E.GetTitle@792bbc74]" started-at="2021-01-28T17:42:14 IST" name="initialize" finished-at="2021-01-28T17:43:39 IST" duration-ms="85469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="courses()[pri:0, instance:FrameworkE2E.GetTitle@792bbc74]" started-at="2021-01-28T17:43:40 IST" name="courses" finished-at="2021-01-28T17:43:40 IST" duration-ms="400" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<FEATURED COURSES> but was:<FEATURED COURSES123>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<FEATURED COURSES> but was:<FEATURED COURSES123>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at FrameworkE2E.GetTitle.courses(GetTitle.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courses -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameworkE2E.GetTitle@792bbc74]" started-at="2021-01-28T17:43:58 IST" name="teardown" finished-at="2021-01-28T17:43:59 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameworkE2E.GetTitle -->
+    </test> <!-- Validating User login -->
+    <test started-at="2021-01-28T17:44:03 IST" name="Validating title in the Page" finished-at="2021-01-28T17:46:42 IST" duration-ms="158806">
+      <class name="FrameworkE2E.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkE2E.HomePage@4879f0f2]" started-at="2021-01-28T17:44:03 IST" name="initialize" finished-at="2021-01-28T17:44:45 IST" duration-ms="41994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:FrameworkE2E.HomePage@4879f0f2]" started-at="2021-01-28T17:44:45 IST" name="basePageNavigation" data-provider="getdata" finished-at="2021-01-28T17:45:49 IST" duration-ms="64212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:FrameworkE2E.HomePage@4879f0f2]" started-at="2021-01-28T17:45:49 IST" name="basePageNavigation" data-provider="getdata" finished-at="2021-01-28T17:46:41 IST" duration-ms="51862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameworkE2E.HomePage@4879f0f2]" started-at="2021-01-28T17:46:41 IST" name="teardown" finished-at="2021-01-28T17:46:42 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameworkE2E.HomePage -->
+    </test> <!-- Validating title in the Page -->
+    <test started-at="2021-01-28T17:46:42 IST" name="Validating navigation Bar" finished-at="2021-01-28T17:47:37 IST" duration-ms="54353">
+      <class name="FrameworkE2E.ValidateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkE2E.ValidateNavigationBar@58ebfd03]" started-at="2021-01-28T17:46:42 IST" name="initialize" finished-at="2021-01-28T17:47:36 IST" duration-ms="53162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:FrameworkE2E.ValidateNavigationBar@58ebfd03]" started-at="2021-01-28T17:47:36 IST" name="basePageNavigation" finished-at="2021-01-28T17:47:36 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameworkE2E.ValidateNavigationBar@58ebfd03]" started-at="2021-01-28T17:47:36 IST" name="teardown" finished-at="2021-01-28T17:47:37 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameworkE2E.ValidateNavigationBar -->
+    </test> <!-- Validating navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>
